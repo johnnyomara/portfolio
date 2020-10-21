@@ -1,0 +1,14 @@
+body {
+  background-color: black
+}
+
+.navbar {
+  background-color: hotpink;
+  color: teal;
+  height: 50px
+}
+
+.page {
+  color: white;
+  font-family: helvetica
+}
