@@ -10,5 +10,22 @@ body {
 
 .page {
   color: white;
-  font-family: helvetica
+  font-family: helvetica;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+}
+
+.oneProj {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  background-color: teal;
+  margin: auto;
 }
