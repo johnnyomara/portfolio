@@ -29,3 +29,13 @@ body {
   background-color: teal;
   margin: auto;
 }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  justify-content: center;
+  align-items: center;
+  /* background-color: teal; */
+  margin: auto;
+}
