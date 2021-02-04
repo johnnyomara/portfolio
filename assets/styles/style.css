@@ -5,7 +5,20 @@ body {
 .navbar {
   background-color: hotpink;
   color: teal;
-  height: 50px
+  height: 50px;
+  text-align: right;
+}
+
+#navbarItems {
+  font-size: 25px;
+  font-family: helvetica;
+  text-align: right;
+  padding-top: 8px;
+  padding-bottom: 6px
+}
+
+#navbarText {
+  margin: 5px
 }
 
 .page {
@@ -13,6 +26,7 @@ body {
   font-family: helvetica;
   display: flex;
   flex-direction: column;
+
 }
 
 .projects {
@@ -28,6 +42,7 @@ body {
   align-items: center;
   background-color: teal;
   margin: auto;
+  text-align: center;
 }
 
 .home {
@@ -36,6 +51,16 @@ body {
   width: 33%;
   justify-content: center;
   align-items: center;
-  /* background-color: teal; */
   margin: auto;
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  padding: 40px;
+}
+
+.header {
+  padding-left: 40px;
 }
